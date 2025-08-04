@@ -14,8 +14,6 @@ Este projeto tem como objetivo a construção de um Data Warehouse (DW) voltado 
 - Modelagem dimensional (Estrela e/ou Floco de Neve) para facilitar consultas analíticas.
 - Rotinas ETL para carga, tratamento e integração dos dados.
 - Scripts SQL para criação e manutenção do Data Warehouse.
-- Exemplos de queries analíticas voltadas para o negócio.
-- Documentação dos processos e das tabelas do DW.
 
 ## Estrutura do Projeto
 
@@ -29,31 +27,34 @@ Este projeto tem como objetivo a construção de um Data Warehouse (DW) voltado 
 
 ## Tecnologias Utilizadas
 
-- Banco de Dados Relacional (MySQL / PostgreSQL / SQL Server ou outro)
+- Banco de Dados Relacional (MySQL)
 - Linguagem SQL
-- Ferramentas de ETL (Python, Pentaho, Talend, etc)
-- Ferramentas de visualização (opcional, como PowerBI/ Tableau/ Metabase)
+- Ferramentas de ETL (Python)
 
-## Como Executar
+## Bibliotecas usadas
+- Pandas
+- datetime
+- sqlalchemy
 
-1. **Clone o repositório:**
-    ```bash
-    git clone https://github.com/kingsonPaxe/Projecto-3-Construcao-de-um-Data-Warehouse-para-Dados-de-Vendas.git
-    ```
+## 🚀 Como executar
 
-2. **Configure o banco de dados:**
-   - Crie um novo banco de dados para o DW.
-   - Execute os scripts SQL presentes na pasta `/sql` para criar as tabelas e estruturas necessárias.
+1. Clone o repositório
+2. Ative o ambiente (`env`)
+3. Abra o `index.ipynb` no Jupyter ou VSCode
+4. Execute as etapas de ETL e análise
 
-3. **Execute o processo ETL:**
-   - Utilize os scripts e/ou ferramentas da pasta `/etl` para carregar e transformar os dados.
+## 🛠️ Tecnologias usadas
 
-4. **Realize consultas analíticas:**
-   - Utilize os exemplos de queries para gerar relatórios e análises sobre os dados de vendas.
+- Python
+- Pandas
+- SQL
+- Jupyter Notebook
 
-## Documentação
+## 📈 Dataset
 
-A documentação completa sobre a modelagem, processos ETL e exemplos de análise pode ser encontrada na pasta `/docs`.
+O dataset **Sample - Superstore.csv** contém dados de vendas, clientes, regiões, produtos e categorias, ideal para demonstração de conceitos de DW.
+
+---
 
 ## Contribuição
 
