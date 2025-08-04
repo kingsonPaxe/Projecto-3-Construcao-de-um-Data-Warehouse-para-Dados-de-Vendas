@@ -18,39 +18,33 @@ Este projeto tem como objetivo a construção de um Data Warehouse (DW) voltado 
 ## Estrutura do Projeto
 
 ```
-├── data/                  # Dados brutos e/ou exemplos de datasets
-├── etl/                   # Scripts ETL para carregamento dos dados
-├── sql/                   # Scripts SQL de criação do DW e queries de análise
-├── docs/                  # Documentação detalhada do projeto
-├── README.md              # Este arquivo
+├── 📓 index.ipynb # Notebook com o processo de ETL e análises
+├── 🗃 query.sql # Consultas SQL para extração de insights
+├── 📄 README.md # Documentação do projeto
+└── 📊 Sample - Superstore.csv # Conjunto de dados de vendas
 ```
+---
 
-## Tecnologias Utilizadas
-
-- Banco de Dados Relacional (MySQL)
-- Linguagem SQL
-- Ferramentas de ETL (Python)
-
-## Bibliotecas usadas
-- Pandas
-- datetime
-- sqlalchemy
-
-## 🚀 Como executar
+## Como executar
 
 1. Clone o repositório
 2. Ative o ambiente (`env`)
 3. Abra o `index.ipynb` no Jupyter ou VSCode
 4. Execute as etapas de ETL e análise
 
-## 🛠️ Tecnologias usadas
+## Tecnologias usadas
 
 - Python
 - Pandas
 - SQL
 - Jupyter Notebook
-
-## 📈 Dataset
+  
+## Bibliotecas usadas
+- Pandas 
+- datetime
+- sqlalchemy
+  
+## Dataset
 
 O dataset **Sample - Superstore.csv** contém dados de vendas, clientes, regiões, produtos e categorias, ideal para demonstração de conceitos de DW.
 
