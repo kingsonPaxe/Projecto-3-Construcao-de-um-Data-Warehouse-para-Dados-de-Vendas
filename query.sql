@@ -4,12 +4,12 @@ create database superStore;
 -- Selecionar todas as vendas
 SELECT * FROM facto_vendas;
 
--- Total de facto_vendas por produto
+-- Total de vendas por produto
 SELECT `chaveProduto`, SUM(Valor_venda) AS total_facto_vendas
 FROM facto_vendas
 GROUP BY `chaveProduto`;
 
--- Total de facto_vendas por cliente
+-- Total de vendas por cliente
 SELECT `chaveCliente`, SUM(Valor_venda) AS total_gasto
 FROM facto_vendas
 GROUP BY `chaveCliente`;
