@@ -11,7 +11,7 @@ Este projeto tem como objetivo a construção de um Data Warehouse (DW) voltado 
 
 ## Principais Funcionalidades
 
-- Modelagem dimensional (Estrela e/ou Floco de Neve) para facilitar consultas analíticas.
+- Modelagem dimensional em Estrela para facilitar consultas analíticas.
 - Rotinas ETL para carga, tratamento e integração dos dados.
 - Scripts SQL para criação e manutenção do Data Warehouse.
 
@@ -59,4 +59,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 Este projeto está licenciado sob a licença MIT.
 
 ---
-Desenvolvido por [kingsonPaxe](https://github.com/kingsonPaxe)
+Desenvolvido por [Jeovani Paxe](https://github.com/kingsonPaxe)
