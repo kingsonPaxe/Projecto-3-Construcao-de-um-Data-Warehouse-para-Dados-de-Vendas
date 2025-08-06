@@ -18,10 +18,10 @@ Este projeto tem como objetivo a construção de um Data Warehouse (DW) voltado 
 ## Estrutura do Projeto
 
 ```
-├── 📓 index.ipynb # Notebook com o processo de ETL e análises
-├── 🗃 query.sql # Consultas SQL para extração de insights
-├── 📄 README.md # Documentação do projeto
-└── 📊 Sample - Superstore.csv # Conjunto de dados de vendas
+├──  index.ipynb # Notebook com o processo de ETL e análises
+├──  query.sql # Consultas SQL para extração de insights
+├──  README.md # Documentação do projeto
+└──  Sample - Superstore.csv # Conjunto de dados de vendas
 ```
 ---
 
